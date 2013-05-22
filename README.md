@@ -1,10 +1,10 @@
 #缘由
 
-JSON+UTF-8是一种非常好的组合，我们在后台服务器比较多地使用这种组合。[jsoncpp](http://jsoncpp.sourceforge.net/)是一个非常优秀的开源项目，代码非常简洁，使用方式也很直观。Google Chrome使用了jsoncpp。 
+JSON+UTF-8是一种非常好的组合，我们在后台服务器比较多地使用这种组合。[JsonCpp](http://jsoncpp.sourceforge.net/)是一个非常优秀的开源项目，代码非常简洁，使用方式也很直观。Google Chrome使用了JsonCpp。 
 
-我们在后台的服务器上使用jsoncpp生成json格式时，发现它的效率是有问题的。format 40KB的数据，平均耗时10ms。为了提高jsoncpp的writer性能，我们想了很多方法，做了一些优化，效果很明显。
+我们在后台的服务器上使用JsonCpp生成json格式时，发现它的效率是有问题的。format 40KB的数据，平均耗时10ms。为了提高JsonCpp的writer性能，我们想了很多方法，做了一些优化，效果很明显。
 
-本来是想将这些优化合并到trunk上，但是提交的patch很久都没有得到回复。我们注意到jsoncpp已经属于公共领域（LICENSE文件中有注明），于是我们想在github上fork一个项目出来，让更多的人受益。
+本来是想将这些优化合并到trunk上，但是提交的patch很久都没有得到回复。我们注意到JsonCpp已经属于公共领域（LICENSE文件中有注明），于是我们想在github上fork一个项目出来，让更多的人受益。
 
 #主要的改进点
 
