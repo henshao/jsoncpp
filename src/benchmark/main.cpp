@@ -16,7 +16,7 @@ int64_t getCurrentTime()
 }
  
 char * key = "abcdef";
-char * str = "abcdefghijklmnopqrstuvwxyz'fuck cpc";
+char * str = "abcdefghijklmnopqrstuvwxyz'fuck CPC";
  
 void test()
 {
@@ -44,8 +44,8 @@ void test()
  
         for( size_t j=0 ; j<outer_field_count; ++j )
         {
-            //auc_info[Json::StaticString(vec[j].c_str())].setValue(Json::StaticString(str));
-            auc_info[Json::StaticString(vec[j].c_str())] = Json::StaticString(str);
+            auc_info[Json::StaticString(vec[j].c_str())].setValue(Json::StaticString(str));
+            //auc_info[Json::StaticString(vec[j].c_str())] = Json::StaticString(str);
         }
     }
  
