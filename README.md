@@ -29,7 +29,7 @@ JSON+UTF-8是一种非常好的组合，我们在后台服务器比较多地使�
 #值得注意的几点
 
 1. 尽量使用引用（可以参考benchmark例子的代码），否则JSON的层数越多，构造Value的开销越大。
-2. 可以设计两个outfit，'outfmt=json'调用FastWriter生成紧凑的JSON字符串；'outfmt=json2'调用StyledWriter生成美观对齐的JSON字符串以供调试。
+2. 可以设计两个outfmt，'outfmt=json'调用FastWriter生成紧凑的JSON字符串；'outfmt=json2'调用StyledWriter生成美观对齐的JSON字符串以供调试。
 
 #以后的计划
 
