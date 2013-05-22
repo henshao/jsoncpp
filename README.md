@@ -16,7 +16,7 @@ JSON+UTF-8是一种非常好的组合，我们在后台服务器比较多地使�
 
 #benchmark
 
-我在src/benchmark目录下放置了一个测试程序，由于不是很懂scone，不知道怎么增加一个target，可以实现输入这条'scones benchmark'命令就可以运行一次。如果有熟悉scons的朋友可以帮我们搞一下。
+我在src/benchmark目录下放置了一个测试程序，由于不是很懂scons，不知道怎么增加一个target，可以实现输入这条'scons benchmark'命令就可以运行一次。如果有熟悉scons的朋友可以帮我们搞一下。
 
 使用JsonCpp官方的0.6.0rc版本作对比，结果如下。在高并发的服务上，实际的性能差距还会更大。
 
