@@ -37,4 +37,4 @@ JSON+UTF-8是一种非常好的组合，我们在后台服务器比较多地使�
 
 #一点建议
 
-我们项目后来改用了rapidjson，性能比JsonCpp好太多，建议大家使用rapidjson。
+我们项目后来改用了rapidjson，性能比JsonCpp好太多，建议大家使用[rapidjson](https://code.google.com/p/rapidjson/)。
